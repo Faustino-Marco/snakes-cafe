@@ -1,3 +1,5 @@
+
+
 print("""
 **************************************
 **    Welcome to the Snakes Cafe!   **
@@ -85,17 +87,7 @@ else:
 
 
 
-# def add_to_order(item):
-#     if not len(order_dict):
-#         order_dict = {item: 1}
-#         print(order_dict)
-#     elif item in order_dict:
-#         order_dict[item] += 1
-#         print(order_dict)
-#
-#     print("order = input("> ")")
-#
-# add_to_order(order)
+
 
 # class Order:
 #     def __init__(self, item):
@@ -111,6 +103,17 @@ else:
 #         elif self.count >1:
 #             print(f"** {self.count} orders of {self.item} have been added to your meal **")
 
+# def add_to_order(item):
+#     if not len(order_dict):
+#         order_dict = {item: 1}
+#         print(order_dict)
+#     elif item in order_dict:
+#         order_dict[item] += 1
+#         print(order_dict)
+#
+#     print("order = input("> ")")
+#
+# add_to_order(order)
 # def process(newOrder):
 #
 #     orderSoFar = []
