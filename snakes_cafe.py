@@ -72,7 +72,10 @@ def repeat_order():
     summary = order_dict.items()
     print("Ok so altogether that's:")
     for item in summary:
-        print(f"{item[1]} order of {item[0]}")
+        if len(summary) == 1:
+            print(f"{item[1]} orders of {item[0]}")
+        else:
+            print(f"{item[1]} order of {item[0]}")
 
 order3 = input("type 'done' below to place your order... \n or type anything else to cancel your order... \n> ")
 if order3 == 'done':
